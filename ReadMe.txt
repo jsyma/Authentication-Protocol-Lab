@@ -16,3 +16,8 @@ Project 3: Digital Signature
 - Verify the signature with the corresponding public key.
 - If signature is verified successfully, the receiver Bob will be able to authenticate Alice.
 - *Eliminate replay attack* 
+
+To run this program:
+- cd to either Project1, Project2, or Project3
+- run: python bob.py
+- run: python alice.py

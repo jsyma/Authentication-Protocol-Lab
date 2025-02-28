@@ -21,3 +21,13 @@ To run this program:
 - cd to either Project1, Project2, or Project3
 - run: python bob.py
 - run: python alice.py
+
+Key Distribution Protocol 
+- The server (KDC) is used for exchanged messaged between two clients (Alice and Bob)
+Phase 1: Public-Key Scheme is used to distribute master Key K_A and master key K_B 
+Phase 2: The KDC generates a session key K_AB and separately sends it to Alice and Bob
+- To run:
+  - cd Key Distribution Protocol 
+  - run: python KDC.py
+  - run: python alice.py
+  - run: python bob.py

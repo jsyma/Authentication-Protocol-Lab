@@ -31,3 +31,11 @@ Phase 2: The KDC generates a session key K_AB and separately sends it to Alice a
   - run: python KDC.py
   - run: python alice.py
   - run: python bob.py
+
+Secure Chat System 
+- To run this program:
+  - run: python KDC.py in one terminal
+  - run: python client.py in another terminal (prompted to enter Client ID) 
+  - run: python client.py in a third terminal (prompted to enter Client ID)
+  - Can run more clients if desired
+  - Type messages in one client to be relayed by the KDC to other clients
